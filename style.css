@@ -1,0 +1,68 @@
+*{
+    box-sizing:border-box!important;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(233, 224, 224);
+    position:relative;
+}
+html{
+    font-size:15px;
+}
+.f20{
+    font-size:.5rem;
+}
+
+/*nav*/
+
+nav{
+    opacity:.9;
+}
+
+/*header*/
+header .jumbotron{
+    background-image:url(images/code.jpg);
+    background-size:cover;
+    background-position: center 25% 50%;
+    padding-top:12rem;
+    height:30rem;
+   
+}
+#header-title{
+    text-transform:uppercase;
+    font-weight: 200;
+   
+}
+
+/*breadcrumb*/
+
+nav ol.breadcrumb{
+    margin-top:-2.1%;
+    background-color: black!important;
+    
+}
+
+.col-md-8 img:hover{
+opacity:.9;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+    min-height:30rem;
+    width: auto;
+}
+
+.iletisim{
+  margin:5rem;
+
+}
+
+
+
+
+

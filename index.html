@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Yazılım Hakkında Her Şey</title>
+    <meta name="title" content="blog page">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="identifier-UML" content="http://www.">
+    <link rel="icon" href="images/">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    
+
+    <script src="blog.js"></script>
+ 
+
+</head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="35">
+ 
+  <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Logo</a>
+        <button class="navbar-toggler" data-target="#menu" data-toggler="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+    <ul class="ml-auto navbar-nav">
+        <li class="nav-items">
+            <a href="#html5" class="nav-link">HTML5</a></li>
+        <li class="nav-items">
+            <a href="#css3" class="nav-link">CSS3</a></li>
+        <li class="nav-items">
+                <a href="#js" class="nav-link">JS</a></li>
+        <li class="nav-items">
+            <a href="#jquery" class="nav-link">JQUERY</a></li>
+        <li class="nav-items">
+            <a href="#bootstrap" class="nav-link">BOOTSTRAP</a></li>
+    </ul>
+
+    <ul class="ml-auto navbar-nav">
+        <li class="nav-items">
+            <a href="index.html" class="nav-link active">Home</a></li>
+        <li class="nav-items">
+            <a href="html5.htm" class="nav-link">Hakkımızda</a></li>
+        <li class="nav-items">
+            <a href="html5.htm" class="nav-link">Vizyonumuz</a></li>
+        <li class="nav-items">
+            <a href="#contact" class="nav-link">Contact</a></li>
+  
+        <li class="nav-items">
+        <button id="btn_giris" class="ml-2 mt-2">
+            <i class="fa-regular fa-user"></i></button>
+        </li>
+    </ul>
+    
+        </div>
+      </div>
+  </nav>
+
+  <div class="modal fade" id="my" role="dialog">
+      <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+              <div class="modal-header">
+                  <button class="close text-white" data-dismiss="modal">&times;</button></div>
+                <h4 class="modal-title"></h4>
+            <div class="modal-body">
+                    <div class="container">
+                        <h3 class="text-white">Üye Girişi</h3>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="user_email" name="user_email" placeholder="email adresiniz" >
+                                <span  id="validation_email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="user_password" name="user_password" placeholder="şifreniz" >
+                                <span id="validation_password" class="text-danger"></span>
+                            </div>
+                            <button id="btnSubmit" type="submit" class="btn btn-outline-primary">Gönder</button>
+                            <button type="reset" class="btn btn-outline-primary">Temizle</button>
+                        </form>
+                    </div>
+                </div>
+                </div>
+        </div>
+  </div>
+
+  <header>
+      <div class="jumbotron text-white bg-dark">
+          <div class="container">
+              <h2 class="display-2" id="header-title">Yazılım Dünyası</h2>
+              <p class="text-capitalize">Sayfamızda yazılım hakkında birçok bilgiye ulaşacaksınız.</p>
+                <a href="" class="btn btn-primary">Detay..</a>
+            </div>
+      </div>
+  </header>
+
+  <main class="container">
+      <div class="row">
+        <!--Sol Taraf-->
+          <div class="col-md-8">
+           <div class="card mb-4">
+               <div class="card-header">
+                   <h2 id="html5">HTML5</h2></div>
+
+               <img src="images/web.jpg" alt="" class="card-img-top">
+               <div class="card-body">
+                   <h5 class="card-title">Başlık</h5>
+                   <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium culpa dolor vitae quo exercitationem reiciendis iure officia dolorem sunt delectus!
+                   </p>
+                   <button class="btn btn-danger">detay</button>
+               </div>
+               <div style="opacity:0.6;" class="card-footer">date 16.03.2022</div>
+           </div>
+           <div class="card mb-4">
+            <div class="card-header">
+                <h2 id="css3">CSS3</h2></div>
+
+            <img src="images/pc.png" alt="" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">CSS3</h5>
+                <p class="card-text text-justify">
+                </p>
+                <button class="btn btn-danger">detay</button>
+            </div>
+            <div style="opacity:0.6;" class="card-footer">date 16.03.2022</div>
+        </div>
+        <div class="card mb-4">
+            <div class="card-header">
+                <h2 id="js">JAVASCRIPT</h2></div>
+
+            <img src="images/html.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">JS</h5>
+                <p class="card-text text-justify">
+                </p>
+                <button class="btn btn-danger">detay</button>
+            </div>
+            <div style="opacity:0.6;" class="card-footer">date 16.03.2022</div>
+        </div>
+        <div class="card mb-4">
+            <div class="card-header">
+                <h2 id="jquery">JQUERY</h2></div>
+            <img src="images/database.png" alt="" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">JQUERY</h5>
+                <p class="card-text text-justify">
+                </p>
+                <button class="btn btn-danger">detay</button>
+            </div>
+            <div style="opacity:0.6;" class="card-footer">date 16.03.2022</div>
+        </div>
+        <div class="card mb-4">
+            <div class="card-header">
+                <h2 id="bootstrap">BOOTSTRAP</h2></div>
+            <img src="images/css.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">BOOTSTRAP</h5>
+                <p class="card-text text-justify">
+                </p>
+                <button class="btn btn-danger">detay</button>
+            </div>
+            <div style="opacity:0.6;" class="card-footer">date 16.03.2022</div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <h2>Table</h2></div>
+        <div class="card-body">
+            <div class="table-responsive">
+        <table class="table table-bordered table-hover table-dark table-striped">
+              <caption>Başlık</caption>  
+              <thead>
+                  <tr>
+                      <th>Birinci</th>
+                      <th>İkinci</th>
+                      <th>Üçüncü</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>alan</td>
+                      <td>alan</td>
+                      <td>alan</td>
+                  </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                    <td>alan</td>
+                    <td>alan</td>
+                    <td>alan</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>alan</td>
+                    <td>alan</td>
+                    <td>alan</td>
+                </tr>
+            </tbody>
+              <tfood>
+                  <tr>
+                      <td class="text-center" colspan="3">Yazılım Alanı</td>
+                  </tr>              
+              </tfood>
+        </table>
+            </div>
+        </div>
+         
+            <div style="opacity:0.6;" class="card-footer">date 16.03.2022</div>
+        </div>
+       
+          </div>
+         <!--sağ taraf--> 
+          <div class="col-md-4">
+              <div class="card-mb-5">
+                  <div class="header">
+                      <h6>Arama</h6>
+                      <div class="card-body">
+                          <div  class="input-group">
+                            <i class="fa-solid fa-magnifying-glass mt-2 mr-2"></i>
+                              <input id="tags" type="text" class="form-control" placeholder="Arama Alanı"></div>
+                      </div>
+                  </div>
+              </div>
+          
+
+          <div class="card-mt-3 mb-5">
+              <div class="card-header">
+                  <h5 class="text-center text-muted">En Çok Ziyaret Edilenler</h5>
+                  <div class="card-body">
+                      <div class="row">
+                          <div class="col-6">
+                              <ul class="list-unstyled">
+                                  <li><a href="">HTML5</a></li>
+                                  <li><a href="">CSS3</a></li>
+                                  <li><a href="">JQUERY</a></li>
+                                  <li><a href="">JS</a></li>
+                              </ul>
+                          </div>
+                          <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="">SERVLET</a></li>
+                                <li><a href="">JSP</a></li>
+                                <li><a href="">JSF</a></li>
+                                <li><a href="">Spring Boot</a></li>
+                            </ul>
+                        </div>                        
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+ <!-- div.card>div.card-header>h5{tag cloud}+div.card-body>div.row>div.col-6>ul.list-unstyled>li*6-->  
+ <div class="card">
+     <div class="card-header">
+         <h5>Tag Cloud</h5>
+         <div class="card-body">
+           <a class="btn btn-primary border-radius mt-1" href="">Deneme</a>
+           <a class="btn btn-primary border-radius mt-1" href="">Deneme</a>  
+           <a class="btn btn-primary border-radius mt-1" href="">Deneme</a> 
+           <a class="btn btn-primary border-radius mt-1" href="">Deneme</a> 
+           <a class="btn btn-primary border-radius mt-1" href="">Deneme</a> 
+           <a class="btn btn-primary border-radius mt-1" href="">Deneme</a>                   
+                  
+             </div>
+         </div>
+     </div>
+ </div>
+      </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+  </main>
+
+<footer class="text white bg dark">
+   
+        
+        <h2 id="contact" style="color:aliceblu;" font-weight="bold"></h2>
+      
+
+        <div class="col100clearfix" style="margin-bottom:5rem;">
+            <div class="mapouter" >
+                <div class="gmap_canvas">
+                    <iframe width=100% height="500"
+                     id="gmap_canvas" 
+                     src="https://maps.google.com/maps?q=ankara&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                     <a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style><a href="https://www.embedgooglemap.net">create google maps for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div></div>
+    </div>
+            <div class="iletisim">
+                <address>
+                    <a style="color:rgb(165, 112, 42); float:right;" href=""><i class="fa-solid fa-d"></i><i class="fa-solid fa-g"></i><i class="fa-solid fa-e"></i></a>
+                <p style="color:white;">
+                    Ankara/İstanbul<br>
+                    <a style="color:white;" href="mailto:">dgamzersoy@outlook.com</a><br>
+                    <a style="color:white" href="tel:+">+90 121 121 22 11 </a>
+                </address>
+             
+              
+            </div>
+
+            <div class="haklar">
+                <br>
+                <p style="color:white; text-align: center;"> Bütün Haklar Saklıdır &copy;</p>
+            </div>
+        </div>
+    
+</footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+   
+
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
